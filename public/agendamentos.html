@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Agendamentos Pet Shop</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script defer src="js/agendamentos.js"></script>
+</head>
+<body>
+  <h1>Seus Agendamentos</h1>
+  <button id="btn-logout">Logout</button>
+  <h2>Novo agendamento</h2>
+  <form id="form-agendamento">
+    <input name="nome_pet" placeholder="Nome do pet">
+    <input name="raca" placeholder="Raça">
+    <input name="data_hora" type="datetime-local">
+    <textarea name="observacoes" placeholder="Observações"></textarea>
+    <input name="imagem" type="file">
+    <button>Agendar</button>
+  </form>
+  <ul id="lista"></ul>
+</body>
+</html>

@@ -1,0 +1,9 @@
+/* reset mínimo */
+* { box-sizing: border-box; margin:0; padding:0; }
+body { font-family: sans-serif; padding: 1rem; }
+h1, h2 { margin-bottom: .5rem; }
+form { margin-bottom: 1rem; }
+input, textarea, button { margin: .25rem 0; display: block; padding: .5rem; }
+ul { list-style: none; padding-left: 0; }
+li { margin-bottom: .5rem; border: 1px solid #ccc; padding: .5rem; border-radius: 4px; }
+button { cursor: pointer; }
