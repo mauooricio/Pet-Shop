@@ -27,7 +27,7 @@ Um sistema de agendamento para pet shop, com frontend em HTML/CSS/JS e backend e
 
 1. **Clone o repositório**  
    ```bash
-   git clone <URL-do-seu-repo>
+   git clone <(https://github.com/mauooricio/Pet-Shop)>
    cd petshop
 
 Instale dependências
