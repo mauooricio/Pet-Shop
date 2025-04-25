@@ -64,25 +64,3 @@ http://localhost:3000/login.html
 http://localhost:3000/register.html
 
 Após login: http://localhost:3000/agendamentos.html
-
-/
-├── public/
-│   ├── css/
-│   │   └── styles.css
-│   ├── js/
-│   │   ├── auth.js
-│   │   └── agendamentos.js
-│   ├── login.html
-│   ├── register.html
-│   └── agendamentos.html
-├── src/
-│   ├── config/        # conexão MySQL (database.js)
-│   ├── controllers/   # lógica de rotas (authController, agendamentoController)
-│   ├── middlewares/   # authMiddleware, multer upload
-│   ├── models/        # funções de acesso a dados
-│   └── routes/        # definição de endpoints (authRoutes, agendamentoRoutes)
-├── src/uploads/       # arquivos de imagem enviados
-├── banco_petshop.sql  # script de criação do banco/tabelas
-├── .env               # variáveis de ambiente
-├── package.json
-└── server.js          # ponto de entrada do backend
